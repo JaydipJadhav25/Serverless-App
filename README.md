@@ -45,13 +45,13 @@ _Note_: In current form, after deployment, your API is public and can be invoked
 After successful deployment, you can call the created application via HTTP:
 
 ```
-curl https://xxxxxxx.execute-api.us-east-1.amazonaws.com/
+https://y4ctijsf8k.execute-api.ap-south-1.amazonaws.com/
 ```
 
 Which should result in response similar to:
 
 ```json
-{ "message": "Go Serverless v4! Your function executed successfully!" }
+{"message":"hello , Your function executed successfully!","createBy":"Jaydip Dhananjay Jadhav"}
 ```
 
 ### Local development
